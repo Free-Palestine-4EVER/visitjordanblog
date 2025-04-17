@@ -62,11 +62,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/hotels" className="text-gray-600 hover:text-teal-600 transition-colors">
-                  Hotels
-                </Link>
-              </li>
-              <li>
                 <Link href="/travel-tips/food" className="text-gray-600 hover:text-teal-600 transition-colors">
                   Food & Cuisine
                 </Link>
