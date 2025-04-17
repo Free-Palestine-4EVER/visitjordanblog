@@ -198,19 +198,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* DiscoverCars.com Banner */}
-      <section className="py-8 bg-white">
-        <div className="container mx-auto px-4 text-center">
-          <div className="flex justify-center">
-            <div
-              dangerouslySetInnerHTML={{
-                __html: `<a href="https://www.discovercars.com/?a_aid=MMC&amp;a_bid=f29909e9" target="_top"><img src="//discover-car-hire.postaffiliatepro.com/accounts/default1/bunyh71e/f29909e9.jpg" alt="DiscoverCars.com" title="DiscoverCars.com" width="728" height="90" /></a><img style="border:0" src="https://discover-car-hire.postaffiliatepro.com/scripts/iunyh71e?a_aid=MMC&amp;a_bid=f29909e9" width="1" height="1" alt="" />`,
-              }}
-            />
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
