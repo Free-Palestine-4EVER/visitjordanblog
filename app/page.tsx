@@ -189,12 +189,6 @@ export default function Home() {
             >
               Browse Destinations
             </Link>
-            <Link
-              href="/planning-guide"
-              className="border border-white text-white px-6 py-3 rounded-md hover:bg-teal-600 transition-colors inline-block"
-            >
-              Planning Guide
-            </Link>
           </div>
         </div>
       </section>
