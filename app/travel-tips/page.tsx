@@ -66,25 +66,6 @@ export default function TravelTipsPage() {
           </Link>
 
           <Link
-            href="/travel-tips/accommodation"
-            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden"
-          >
-            <div className="h-48 overflow-hidden">
-              <img
-                src="/images/travel-tips/accommodation-jordan.jpg"
-                alt="Accommodation in Jordan"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">Accommodation Guide</h3>
-              <p className="text-gray-600">
-                From luxury hotels to Bedouin camps - find the perfect place to stay in Jordan.
-              </p>
-            </div>
-          </Link>
-
-          <Link
             href="/travel-tips/food"
             className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden"
           >
@@ -154,42 +135,6 @@ export default function TravelTipsPage() {
         </div>
       </div>
 
-      <div className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Jordan Itineraries</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <Link
-            href="/travel-tips/3-day-itinerary"
-            className="block p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
-          >
-            <h3 className="text-xl font-semibold mb-2">3-Day Itinerary</h3>
-            <p className="text-gray-600">Perfect for a quick visit to Jordan's highlights.</p>
-          </Link>
-
-          <Link
-            href="/travel-tips/5-day-itinerary"
-            className="block p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
-          >
-            <h3 className="text-xl font-semibold mb-2">5-Day Itinerary</h3>
-            <p className="text-gray-600">A balanced trip covering Jordan's main attractions.</p>
-          </Link>
-
-          <Link
-            href="/travel-tips/7-day-itinerary"
-            className="block p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
-          >
-            <h3 className="text-xl font-semibold mb-2">7-Day Itinerary</h3>
-            <p className="text-gray-600">The ideal duration for a comprehensive Jordan experience.</p>
-          </Link>
-
-          <Link
-            href="/travel-tips/10-day-itinerary"
-            className="block p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
-          >
-            <h3 className="text-xl font-semibold mb-2">10-Day Itinerary</h3>
-            <p className="text-gray-600">An in-depth exploration of Jordan's diverse regions.</p>
-          </Link>
-        </div>
-      </div>
 
       <div>
         <h2 className="text-2xl font-semibold mb-4">Planning Resources</h2>
